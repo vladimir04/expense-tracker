@@ -1,0 +1,30 @@
+{
+  "name": "expense-tracker",
+  "version": "0.0.1",
+  "description": "expense tracker vue app to play around with jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladimir04/expense-tracker.git"
+  },
+  "keywords": [
+    "VueJS",
+    "NodeJS",
+    "Jenkins"
+  ],
+  "author": "Vladimir Vancea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladimir04/expense-tracker/issues"
+  },
+  "homepage": "https://github.com/vladimir04/expense-tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
