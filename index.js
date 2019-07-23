@@ -10,7 +10,7 @@ app.get("/", function(req, res) {
 
 app.listen(port, err => {
   if (err) {
-    return console.log("Oh no! Something errory happened ", err);
+    return console.log("Oh no! Something bad happened ", err);
   }
   console.log(`server is listening on ${port}`);
 });
