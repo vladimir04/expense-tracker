@@ -5,7 +5,7 @@ describe("GET /", () => {
   it("respond with hello world", done => {
     request(app)
       .get("/")
-      .expect("hello world")
+      .expect("hey world")
       .end(done);
   });
 });
