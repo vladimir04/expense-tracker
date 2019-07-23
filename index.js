@@ -8,7 +8,6 @@ app.get("/", function(req, res) {
   res.send("hello world");
 });
 
-//listen to port 3000 by default
 app.listen(port, err => {
   if (err) {
     return console.log("Oh no! Something errory happened ", err);
