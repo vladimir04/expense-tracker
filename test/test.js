@@ -2,10 +2,10 @@ var request = require("supertest");
 var app = require("../index.js");
 
 describe("GET /", () => {
-  it("respond with hello world", done => {
+  it("respond with hey world", done => {
     request(app)
       .get("/")
-      .expect("hello world")
+      .expect("hey world")
       .end(done);
   });
 });
