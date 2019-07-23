@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh admin@206.81.27.22 <<EOF
+ssh "admin@$1" <<EOF
  cd ~/expense-tracker
  git pull
  npm install
