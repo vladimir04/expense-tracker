@@ -27,5 +27,13 @@ pipeline {
         sh "npm run build"
       }
     }
+    stage("Deploy project") {
+      when {
+          branch 'develop'
+      }
+      steps {
+        sh "/script/deploy.sh"
+      }
+    }
   }     
 }
