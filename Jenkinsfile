@@ -29,7 +29,7 @@ pipeline {
     }
     stage("Deploy project") {
       when {
-          branch 'develop'
+          branch 'master'
       }
       steps {
         sh "/script/deploy.sh"
