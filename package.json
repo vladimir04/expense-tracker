@@ -4,7 +4,9 @@
   "description": "expense tracker vue app to play around with jenkins",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/jest ./test/test.js --forceExit"
+    "test": "./node_modules/.bin/jest ./test/test.js --forceExit",
+    "lint": "./node_modules/.bin/jest ./test/test.js --forceExit",
+    "build": "./node_modules/.bin/jest ./test/test.js --forceExit"
   },
   "repository": {
     "type": "git",

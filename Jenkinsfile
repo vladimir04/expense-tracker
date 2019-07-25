@@ -14,12 +14,12 @@ pipeline {
     }
     stage('Lint files') {
       steps {
-        sh 'npm test'
+        sh 'npm run lint'
       }
     } 
     stage('Run unit tests') {
       steps {
-        sh 'npm test'
+        sh 'npm run test'
       }
     }
     stage("Build the project") {
