@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 //Respond with "hello world" for requests that hit our root "/"
 app.get("/", function(req, res) {
-  res.send("hello world");
+  res.send("hey world");
 });
 
 app.listen(port, err => {
